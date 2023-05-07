@@ -7,7 +7,7 @@ const ExpenseDate = (props) => {
     const year =props.date.getFullYear()
 
   return (
-    <div>
+    <div className='text-center border-white border-2 p-5 m-5 bg-stone-700 rounded-xl'>
         <p>{month}</p>
         <p>{day}</p>
         <p>{year}</p>

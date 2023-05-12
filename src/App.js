@@ -7,7 +7,7 @@ import { useState } from "react";
       id: "e1",
       title: "Car Insurance",
       amount: 294.67,
-      date: new Date(2020, 7, 14),
+      date: new Date(2021, 7, 14),
     },
     {
       id: "e2",
@@ -19,7 +19,7 @@ import { useState } from "react";
       id: "e3",
       title: "pencils",
       amount: 294.67,
-      date: new Date(2020, 7, 14),
+      date: new Date(2019, 7, 14),
     },
     {
       id: "e4",

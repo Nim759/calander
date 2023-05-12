@@ -3,14 +3,9 @@ import ExpenseDate from "./ExpenseDate";
 import Card from "./Card";
 
 const ExpenseItem = (props) => {
-  // const [title, setTitle] = useState(props.title.title);
-
-  // const clickHandler = () => {
-  //   setTitle("Updated");
-  //   console.log("clicked");
-  // };
 
   return (
+    <li>
     <Card>
       <div className="m-10 bg-gray-600 text-white flex justify-between items-center rounded-3xl">
         <ExpenseDate date={props.date} />
@@ -21,6 +16,7 @@ const ExpenseItem = (props) => {
         {/* <button onClick={clickHandler}>Change Title</button> */}
       </div>
     </Card>
+    </li>
   );
 };
 
